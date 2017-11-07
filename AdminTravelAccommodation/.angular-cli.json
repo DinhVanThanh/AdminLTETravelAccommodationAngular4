@@ -20,11 +20,31 @@
       "prefix": "app",
       "styles": [
         "../node_modules/bootstrap/dist/css/bootstrap.min.css",
-        "styles.css"
+        "../src/assets/global/css/plugins.css",
+        "../src/assets/global/css/components.css",
+        "../src/assets/admin/layout/css/layout.css",
+        "../src/assets/admin/layout/css/custom.css", 
+        "../src/assets/admin/pages/css/login.css",
+        "../src/assets/global/plugins/select2/select2.css",
+        "../src/assets/global/plugins/select2/select2-bootstrap.css",
+        "../node_modules/bootstrap-fileinput/css/fileinput-rtl.min.css",
+        "../node_modules/bootstrap-fileinput/css/fileinput.min.css",
+        "styles.scss"
       ],
       "scripts": [
         "../node_modules/jquery/dist/jquery.min.js",
-        "../node_modules/bootstrap/dist/js/bootstrap.min.js"
+        "../node_modules/bootstrap/dist/js/bootstrap.min.js",
+        "../src/assets/global/plugins/jquery-slimscroll/jquery.slimscroll.js",
+        "../src/assets/global/scripts/metronic.js",
+        "../src/assets/admin/layout/scripts/layout.js",
+        "../src/assets/admin/pages/scripts/login.js",
+        "../src/assets/global/plugins/select2/select2.min.js",
+        "../node_modules/bootstrap-fileinput/js/fileinput.min.js",
+        "../node_modules/bootstrap-fileinput/js/plugins/sortable.min.js",
+        "../node_modules/bootstrap-fileinput/js/plugins/purify.min.js",
+        "../node_modules/bootstrap-fileinput/js/plugins/piexif.min.js",
+        "../node_modules/bootstrap-fileinput/js/locales/vi.js",
+        "../node_modules/bootstrap-fileinput/themes/fa/theme.min.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
@@ -58,7 +78,7 @@
     }
   },
   "defaults": {
-    "styleExt": "css",
+    "styleExt": "scss",
     "class": {
       "spec": false
     },
