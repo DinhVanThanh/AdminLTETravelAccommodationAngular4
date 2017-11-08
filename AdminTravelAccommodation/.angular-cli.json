@@ -33,8 +33,7 @@
       ],
       "scripts": [
         "../node_modules/jquery/dist/jquery.min.js",
-        "../node_modules/bootstrap/dist/js/bootstrap.min.js",
-        "../src/assets/global/plugins/jquery-slimscroll/jquery.slimscroll.js",
+        "../node_modules/bootstrap/dist/js/bootstrap.min.js",  
         "../src/assets/global/scripts/metronic.js",
         "../src/assets/admin/layout/scripts/layout.js",
         "../src/assets/admin/pages/scripts/login.js",
